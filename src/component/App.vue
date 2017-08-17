@@ -1,6 +1,8 @@
 <template>
   <main>
     <v-head></v-head>
+    <!--缩略图的占位标签-->
+    <lg-preview></lg-preview>
     <router-view></router-view>
     <v-foot></v-foot>
   </main>

@@ -23,6 +23,10 @@ import App from '../component/App.vue';
 import router from './route.js';
 //3.自己的过滤器
 import './filter.js';
+//4.导入图片放大浏览插件
+import img_pre from '../component/plugin/img_preview_install';
+Vue.use(img_pre);
+
 //创建一个Vue实例
 new Vue({
     el:"#app",
